@@ -1,0 +1,13 @@
+hour=$(date +%H)  
+
+if [ $hour -lt 12 ] 
+then 
+echo "Good Morning" 
+
+elif [ $hour -lt 17 ] 
+then 
+echo "Good Afternoon" 
+
+else 
+echo "Good Evening" 
+fi
